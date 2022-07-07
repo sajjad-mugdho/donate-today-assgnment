@@ -28,7 +28,10 @@ body {
     color: aliceblue;
     font-weight: 700;
 
+}
 
+#btn {
+    margin-top: auto;
 }
 
 .text {
@@ -55,4 +58,29 @@ body {
 .donate-today h1 {
     font-size: 36px;
     font-weight: 700;
+}
+
+.taka {
+
+    margin-top: 5%;
+
+    display: inline-flex;
+    border-radius: 10px;
+    border: 3px solid rgb(228, 225, 225);
+    padding: 20px 20px;
+    background-color: rgb(228, 225, 225);
+}
+
+.taka:hover {
+    background-color: rgb(253, 150, 150);
+    border: 3px tomato solid;
+
+}
+
+input {
+    border-radius: 5px;
+    width: 80%;
+    padding: 12px 20px;
+    margin: 80px 0;
+    box-sizing: content-box;
 }
