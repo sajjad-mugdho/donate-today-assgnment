@@ -4,14 +4,21 @@ body {
     padding: 0;
 }
 
-h1 {
+.text h1 {
     font-size: 50px;
     color: white;
+
 }
 
-p {
-    color: white;
+.header {
+    min-height: 90vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(img/donation13.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
 }
+
 
 .btn {
     text-decoration: none;
@@ -20,9 +27,32 @@ p {
     background-image: linear-gradient(red, tomato);
     color: aliceblue;
     font-weight: 700;
+
+
 }
 
-.top {
-    background-image: url(img/donation4.jpg);
+.text {
+    width: 90%;
+    text-align: center;
+    padding-top: 150px;
 
+}
+
+.text p {
+
+    margin: 40px 40px;
+    color: white;
+}
+
+.donate-today {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+
+}
+
+.donate-today h1 {
+    font-size: 36px;
+    font-weight: 700;
 }
