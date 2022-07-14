@@ -84,3 +84,30 @@ input {
     margin: 80px 0;
     box-sizing: content-box;
 }
+
+.row {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.colum {
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+
+#Food {
+    background-color: #EDF5F6;
+
+}
+
+#Shelter {
+    background-color: #FFEEEE;
+}
+
+#Education {
+    background-color: #FFF4D6;
+}
