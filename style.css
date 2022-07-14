@@ -97,10 +97,16 @@ input {
     margin-bottom: 5%;
     padding: 20px 12px;
     box-sizing: border-box;
+    transition: 0.5s;
+}
+
+.colum:hover {
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
 }
 
 #Food {
     background-color: #EDF5F6;
+
 
 }
 
@@ -110,4 +116,54 @@ input {
 
 #Education {
     background-color: #FFF4D6;
+}
+
+h3 {
+    text-align: center;
+    margin: 10px 0;
+    font-weight: 900;
+}
+
+.mid {
+    display: flex;
+    margin-bottom: 150px;
+    margin-top: 100px;
+    height: 500px;
+
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 5%;
+    margin-left: 10%;
+}
+
+.half-width img {
+    width: 80%;
+    border-radius: 10px;
+    height: 80%;
+
+}
+
+.half-width h1 {
+    font-weight: 700;
+    font-size: 50px;
+    margin-bottom: 5%;
+}
+
+.half-width p {
+    margin-bottom: 10%;
+    text-align: justify;
+    font-weight: 500;
+    color: rgb(82, 76, 76);
+}
+
+.link-btn {
+    text-decoration: none;
+    background-color: orange;
+    padding: 10px 40px;
+    color: white;
+    font-weight: 700;
+    background-image: linear-gradient(orange, tomato);
+    margin-top: 100px;
 }
